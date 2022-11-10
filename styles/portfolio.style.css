@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    box-sizing: content-box;
+    padding: 2%;
+    margin: 2% 7%;
+    font-family: fantasy;
+
+}
+
+header {
+    border: 2px solid antiquewhite;
+    border-radius: 1rem;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 2%;
+    width: 100%;
+    height: fit-content;
+    position: sticky; top: 0;
+    background-color: black;
+}
+
+/* Drop down menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    padding: 2%;
+}
+
+.dropbutton {
+color: white;
+background-color: black;
+border-style: solid;
+padding: 2%;
+margin: 2%;
+font-family: fantasy;
+min-width: 10rem;
+font-size: 1.2em;
+vertical-align: middle;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px silver;
+    z-index: 1;
+    font-size: 1.2em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.dropdown-content a {
+        color: black;
+        padding: 2%;
+        text-decoration: none;
+        display: block;
+        background-color: white;
+        border-style: solid;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+.dropdown-content a:hover {
+    color: blueviolet;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: gray;
+}
+
+/* Footer */
+footer {
+    border: 3px solid antiquewhite;
+    padding: 2%;
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+}

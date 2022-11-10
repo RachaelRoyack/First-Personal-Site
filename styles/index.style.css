@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Satisfy&family=Shadows+Into+Light&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    box-sizing: content-box;
+    padding: 2%;
+    margin: 2% 7%;
+
+}
+
+/* header */
+header {
+    border: 2px solid antiquewhite;
+    border-radius: 1rem;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 2%;
+    width: 100%;
+    position: sticky; top: 0;
+    background-color: black;
+ 
+}
+
+
+h1 {
+    font-family: fantasy;
+    display: inline-block;
+    font-size: 2em;
+}
+
+#lily {
+    max-width: 14%;
+    text-align: left;
+}
+
+/* Drop down menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* text-align: center; */
+    float: right;
+    padding: 2%;
+}
+
+.dropbutton {
+color: white;
+background-color: black;
+border-style: solid;
+padding: 2%;
+margin: 2%;
+font-family: fantasy;
+min-width: 10rem;
+font-size: 1.2em;
+vertical-align: middle;
+text-align: center;
+}
+
+.headerDisplay {
+    display: table-row;
+}
+
+.name {
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+    font-size: larger;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px silver;
+    z-index: 1;
+    font-size: 1.2em;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.dropdown-content a {
+        color: black;
+        padding: 2%;
+        text-decoration: none;
+        display: block;
+        background-color: white;
+        border-style: solid;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+.dropdown-content a:hover {
+    color: blueviolet;
+}
+
+.dropdown:hover .dropbutton {
+    background-color: gray;
+}
+
+/* main */
+
+main {
+    background-image: url("../images/color.splash.flower.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2%;
+    text-shadow: 2px 2px 5px black;
+    width: 100%;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+#advertise {
+    font-size: 2em;
+    font-family: fantasy;
+    text-align: right;
+}
+
+#quote {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3em;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Footer */
+footer {
+    border: 3px solid antiquewhite;
+    padding: 2%;
+    border-radius: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+
